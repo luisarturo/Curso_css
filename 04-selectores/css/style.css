@@ -63,3 +63,108 @@ h1, h2 {
     background-color: var(--blanco);
     padding: 5rem;
 }
+
+/************************
+* 2.- Selector de Clase
+************************/
+.primer-parrafo {
+    font-size: 4rem;
+    color: red;
+}
+
+/************************
+* 3.- Selector de 2 Clases
+************************/
+.texto {
+    background-color: red;
+}
+.azul {
+    color: blue;
+}
+.mayusculas{
+    text-transform: uppercase;
+}
+.texto.mayusculas {
+    font-size: 10rem;
+}
+.texto.azul{
+    text-align: right;
+}
+
+/************************
+* 4.- Selector de Clases Anidadas
+************************/
+.header .descripcion {
+    color: red;
+}
+
+.descripcion {
+    color: blue;
+}
+
+/************************
+* 5.- Selector de ID
+************************/
+#encabezado {
+    text-transform: uppercase;
+    color: red;
+}
+
+.texto_5{
+    color: blue;
+}
+#encabezado.texto_5{
+    color: tomato;
+}
+/************************
+* 6.- Selector de Etiqueta y Clase
+************************/
+div.texto {
+    background-color: yellow;
+}
+.texto {
+    background-color: red;
+}
+/************************
+* 7.- 2 Elementos
+************************/
+.texto, .oferta {
+    border: 3px solid yellow;
+    padding: 2rem;
+}
+/************************
+* 8.- Primer Nivel de Hijos
+************************/
+.admin > div {
+    border: 2px solid red;
+}
+/************************
+* 9.- Primer Elemento Después
+************************/
+.admin div + p {
+    border: 2px solid blue;
+}
+/************************
+* 10.- Atributo
+************************/
+a[href="http://www.google.com"] {
+    color: red;
+}
+/************************
+* 11.- Primer Hijo de una lista
+************************/
+ul li:first-child {
+    border: 2px solid red;
+}
+/************************
+* 12.- último Hijo de una lista
+************************/
+ul li:last-child {
+    border: 2px solid red;
+}
+/************************
+*13.- Elemento en Especifico
+************************/
+ul li:nth-child(2n + 1){
+    border: 2px solid gray;
+}
