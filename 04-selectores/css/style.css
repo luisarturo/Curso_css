@@ -168,3 +168,18 @@ ul li:last-child {
 ul li:nth-child(2n + 1){
     border: 2px solid gray;
 }
+/************************
+*14.- Seleccionar todos los elementos excepto uno o unos
+************************/
+p:not(.texto):not(.oferta) {
+    color: red;
+}
+/************************
+*15.- Primer Letra y Linea
+************************/
+.primer-letra::first-letter{
+    font-size: 20rem;
+}
+.primer-linea::first-line{
+    font-size: 4rem;
+}
