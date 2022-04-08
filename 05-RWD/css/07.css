@@ -1,0 +1,9 @@
+/**********************
+* Contenedores Responsive
+***********************/
+.contenedor-responsive{
+    background-color: #ffffff;
+    width: min(90%, 100px);
+    height: 400px;
+    margin: 0 auto;
+}

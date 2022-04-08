@@ -1,0 +1,16 @@
+/**********************
+* Snipper para Media Queries
+
+1.- control + shift + p
+2.- Escribir User snipper y seleccionar Preferences: Configure User Snippets
+4.- buscar css.json ( en mi caso nomas es buscar css )
+5.- Abrir css.json
+
+
+***********************/
+@media (min-width: 700px) {
+
+}
+@media (min-width: 700px) {
+    
+}
