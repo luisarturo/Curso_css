@@ -1,0 +1,24 @@
+{
+  "name": "cafeteria",
+  "version": "1.0.0",
+  "description": "Aprendiendo SASS, Gulp, CSS Grid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisarturo/Curso_css.git"
+  },
+  "author": "Luis Arturo Cárdenas Bustamante",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisarturo/Curso_css/issues"
+  },
+  "homepage": "https://github.com/luisarturo/Curso_css#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.56.1"
+  }
+}
